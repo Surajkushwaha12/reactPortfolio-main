@@ -1,8 +1,8 @@
 import React,{useState} from 'react'
 import { Link } from "react-router-dom";
-import quiz from "./quiz.png"
+import vibex from "./Vibex.png"
 function ProjectsContainer() {
-  const [teckStack,setTeckState] = useState(["React", "Express","MongoDB","Node.Js"])
+  const [teckStack,setTeckState] = useState(["React.js ", "Express.js ","MongoDB ","Node.Js ","Tailwind Css"])
   const bgcolorDark = "bg-[#3d3a3a]"
   return (
     
@@ -20,46 +20,41 @@ function ProjectsContainer() {
           className={`${bgcolorDark} mt-2  rounded-md sm:w-[95%] w-[95%] m-auto p-2`}
 
         >
-          <div className="flex place-content-between">
-            <h2>Instant Quiz</h2>
+          <div className="flex place-content-between py-4  px-5">
+            <h2 className='text-gray-100 text-2xl font-bold '>VibeX</h2>
             <h2>
-            <Link className='' to="">
+            <Link className='cursor-pointer hover:text-white text-blue-400' to="https://vibe-x-liard.vercel.app/">
 
               Visit Website
             </Link>
-              <span className="w-2 h-2 bg-red-400  rounded-full inline-block m-1">
-                {" "}
-              </span>
             </h2>
           </div>
 
           <div className="grid gap-2 grid-cols-6">
-            <div className="sm:col-span-2 col-span-6">
-              <img src={quiz} className="object-fill w-[100%] h-[12rem]" />{" "}
+            <div className="sm:col-span-2 col-span-6 m-5 mt-2">
+              <img src={vibex} className="object-cover w-[100%] h-[12rem] " />{" "}
             </div>
             <ul className="sm:col-span-4 col-span-6">
               <li >
                 <p className="">
                   <span className="w-1 h-1 bg-violet-400  rounded-full inline-block m-1"></span>
-                  Instant Quiz is a Full-stack web application built using MERN stack that provides a Quick quiz contest.
+                  VibeX is a music streaming website inspired by Spotify, offering users a wide range of music to explore & enjoy.
+
                 </p>{" "}
               </li>
               <li>
                 <p>
                   <span className="w-1 h-1 bg-violet-400   rounded-full inline-block m-1"></span>
-                  Allows users to register themselves and enter a 5min quick mock quiz.
+                  Implemented user authentication, music streaming features, and created a fully responsive UI for a seamless
+experience across devices.
+
                 </p>{" "}
               </li>
               <li>
                 <p>
                   <span className="w-1 h-1 bg-violet-400   rounded-full inline-block m-1"></span>
-                  Allows users to mark answers of the questions, submit the quiz, providing a clear view of their result.
-                </p>{" "}
-              </li>
-              <li>
-                <p>
-                  <span className="w-1 h-1 bg-violet-400   rounded-full inline-block m-1"></span>
-                  Atractive Ui , Responsive design, usefull for school for taking short test or optional exams.
+                  Utilized React, Express, MongoDB, Tailwind CSS, JWT, and Login authentication to develop a highly functional and
+                  engaging platform with 100% responsiveness.
                 </p>{" "}
               </li>
               <li className="flex">

@@ -4,7 +4,7 @@ function Education() {
   const bgcolorDark = "bg-[#3d3a3a]"
   return (
     <div className=''>
-      <h2 className='pb-2'>My Education </h2>
+      <h2 className='pb-2'>Education </h2>
       <hr />
       <div className={`${bgcolorDark} w-[96%] my-2 rounded-md  mx-auto flex p-2 gap-2`}>
         <div className="text-xs">

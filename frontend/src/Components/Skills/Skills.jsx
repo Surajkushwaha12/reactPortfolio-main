@@ -273,11 +273,11 @@ function Skills() {
   const bgDark = "bg-[#1b1a1a]"
   return (
     <div className='p-2'>
-      <div className={`bg-[#8d28df] text-white  rounded-md sm:col-span-4 p-2 mb-2`}>
+      <div className={`bg-[#b396cc] text-black  rounded-md sm:col-span-4 p-2 px-5 mb-2`}>
     <h1 className="text-2xl font-bold border-b ">
-      My Tech Stacks
+      Technical Skills
     </h1>
-    <ul className="p-1 flex flex-wrap">
+    <ul className="p-1 px-3 flex flex-wrap">
       {skills.map((skill) => (
         <li className=" rounded-sm p-1 m-2   flex flex-col items-center">
           <span className="w-10">{skill.svg}</span>
