@@ -31,8 +31,8 @@ function Header() {
   return (
     <header className="text-white">
       <nav className="border-b-2  grid grid-cols-12  border-white p-1 pt-4 pb-2 ">
-        <div className="col-span-10  ">
-          <ul className=" w-[100%] p-1 m-auto border-red-500 flex  flex-wrap flex-row justify-end  ">
+        <div className="col-span-11 ">
+          <ul className=" w-[100%] p-1 m-auto text-lg font-semibold border-red-500 flex  flex-wrap flex-row justify-end  ">
             {navebarItems.map((item) => (
               <li className=" sm:ml-4 " key={item.name}>
                 <button
@@ -45,13 +45,13 @@ function Header() {
             ))}
           </ul>
         </div>
-        <div className="col-span-0 gap-0  pt-2 pl-3 ">
+        {/* <div className="col-span-0 gap-0  pt-2 pl-3 ">
           {dark == true ? (
             <MoonIcon className=" sm:w-10 sm:h-8 w-8 h-4 bg-transparent text-white" onClick={()=>setDark(!dark)} />
           ) : (
             <SunIcon className=" sm:w-10 sm:h-8 w-8 h-6 bg-transparent text-yellow-200" onClick={()=>setDark(!dark)}/>
           )}
-        </div>
+        </div> */}
       </nav>
     </header>
   );
