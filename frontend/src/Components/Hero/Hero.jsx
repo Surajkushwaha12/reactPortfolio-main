@@ -253,7 +253,7 @@ function Hero() {
             About me :)
           </h1>
           <p className="pt-3">Hi there,</p>
-          <p>I am <b>Suraj Kushwaha</b>, a Full Stack Engineer with a passion for crafting dynamic, immersive web applications that deliver seamless cross-platform experiences.
+          <p>I am <b>Suraj Kushwaha</b>, as a Junior Java Developer at Risosu Consulting LLP, deployed on the Thomas Cook India Ltd project.
           </p>
           <p> I specialize in building sleek, responsive user interfaces that captivate and engage. My goal is to merge cutting-edge design with robust functionality, creating applications that are as visually stunning as they are performant.</p>
           <br />
@@ -281,7 +281,7 @@ function Hero() {
                   Years of Experience
                 </h2>
                 <hr />
-                <p className=" text-8xl font-bold rounded-md ">8<span className="text-xs font-normal p-0 m-0">months</span></p>
+                <p className=" text-8xl font-bold rounded-md ">1<span className="text-xs font-normal p-0 m-0">year</span></p>
               </div>
               <div className={`${bgDark} col-span-1 p-2  rounded-md text-center`}>
                 <h2 className="text-xl font-bold text-start ml-2 pb-2 ">
@@ -289,7 +289,7 @@ function Hero() {
                 </h2>
                 <hr />
                 <Link
-                  to="https://drive.google.com/file/d/1pTdAgbaQZXJNC77p0hc6ZwbtFztP4hSG/view?usp=sharing"
+                  to="https://drive.google.com/file/d/1r8NGnTrBvXzh8NbHUhwN4PpT9cRRfR-M/view?usp=sharing"
                   className="p-2  block border w-[70%] mx-auto my-2 rounded-md"
                 >
                   View

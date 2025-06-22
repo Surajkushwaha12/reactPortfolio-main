@@ -8,8 +8,18 @@ function Experience() {
       <hr />
       <div className={`${bgcolorDark} w-[96%] my-2 rounded-md  mx-auto flex p-2 gap-2`}>
         <div className="text-xs">
-            <p className="m-2">Aug 2024</p>
+            <p className="m-2">Dec 2024</p>
             <p className="m-2">Present</p>
+        </div>
+        <div>
+            <h2 className="text-lg">Junior Java Developer/Grade-T3</h2>
+            <p className="text-sm" >Thomas Cook India Limited</p>
+        </div>
+      </div>
+      <div className={`${bgcolorDark} w-[96%] my-2 rounded-md  mx-auto flex p-2 gap-2`}>
+        <div className="text-xs">
+            <p className="m-2">June 2024</p>
+            <p className="m-2">Nov 2024</p>
         </div>
         <div>
             <h2 className="text-lg">Frontend Developer</h2>
